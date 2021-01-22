@@ -7,6 +7,7 @@ import (
 	"testing"
 
 	"github.com/conku/admin"
+	"github.com/conku/gorm"
 	"github.com/conku/i18n"
 	"github.com/conku/i18n/backends/database"
 	"github.com/conku/i18n/exchange_actions"
@@ -16,7 +17,6 @@ import (
 	"github.com/conku/qor/test/utils"
 	"github.com/conku/worker"
 	"github.com/fatih/color"
-	"github.com/jinzhu/gorm"
 	_ "github.com/mattn/go-sqlite3"
 )
 

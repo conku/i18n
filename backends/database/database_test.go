@@ -3,10 +3,10 @@ package database_test
 import (
 	"testing"
 
+	"github.com/conku/gorm"
 	"github.com/conku/i18n"
 	"github.com/conku/i18n/backends/database"
 	"github.com/conku/qor/test/utils"
-	"github.com/jinzhu/gorm"
 )
 
 var db *gorm.DB
